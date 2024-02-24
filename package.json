@@ -1,8 +1,7 @@
 {
-  "name": "starwars-planet-query",
+  "name": "starwars-planet-api",
   "version": "1.11.0",
-  "homepage": "https://gabrielizalo.github.io/starwars-planets",
-  "private": true,
+  "homepage": "https://github.com/biswarup-naha/star-wars-planets",
   "scripts": {
     "start": "react-scripts start",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
@@ -77,8 +76,6 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
     "eslint": "^8.17.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -87,8 +84,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^4.0.0",
-    "husky": "^8.0.1",
-    "prettier": "^2.7.1"
+    "gh-pages": "^4.0.0"
   }
 }
