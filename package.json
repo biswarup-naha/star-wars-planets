@@ -1,7 +1,7 @@
 {
   "name": "starwars-planet-api",
   "version": "1.11.0",
-  "homepage": "https://github.com/biswarup-naha/star-wars-planets",
+  "homepage": "https://biswarup-naha.github.io/star-wars-planets",
   "scripts": {
     "start": "react-scripts start",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
@@ -22,30 +22,9 @@
     "trailingComma": "none",
     "jsxBracketSameLine": false
   },
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
-    "@semantic-release/github",
-    "@semantic-release/npm",
-    "@semantic-release/git"
-  ],
   "release": {
     "branches": [
       "main"
-    ],
-    "prepare": [
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      {
-        "path": "@semantic-release/git",
-        "assets": [
-          "package.json",
-          "package-lock.json",
-          "CHANGELOG.md"
-        ],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }
     ]
   },
   "browserslist": {
