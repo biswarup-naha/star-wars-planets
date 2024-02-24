@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "https://starwars-planets.b-cdn.net/static/js/main.72745fec.js",
+    "static/media/starwars-planets-bg-landscape.jpg": "https://starwars-planets.b-cdn.net/static/media/starwars-planets-bg-landscape.012dcfc9510997b1b7a7.jpg",
+    "static/media/Star-wars-logo-new-tall.png": "https://starwars-planets.b-cdn.net/static/media/Star-wars-logo-new-tall.f185fbfe2233a268b657.png",
+    "static/media/star-wars-portrait.jpg": "https://starwars-planets.b-cdn.net/static/media/star-wars-portrait.953f85900fb3fe33e324.jpg",
+    "static/media/starwars-planets-bg-portrait.jpg": "https://starwars-planets.b-cdn.net/static/media/starwars-planets-bg-portrait.0647d9059d9a66760e44.jpg",
+    "index.html": "https://starwars-planets.b-cdn.net/index.html",
+    "main.72745fec.js.map": "https://starwars-planets.b-cdn.net/static/js/main.72745fec.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.72745fec.js"
+  ]
+}
