@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="assets/readme-header.png" alt="Bear Stone Smart Home" />
+  Star-Wars API-integrated-project
 </h1>
 
 # Motivation
@@ -41,8 +41,6 @@ Previously just a React exercise that:
 - [ESLint](https://eslint.org/): Find and fix problems in your JavaScript code.
 
 - [Airbnb JavaScript Style Guide](https://airbnb.io/javascript/react/): A mostly reasonable approach to React and JSX.
-
-- [Prettier](https://prettier.io/): An opinionated code formatter.
 
 - [husky](https://www.npmjs.com/package/husky): Husky improves your commits and more 🐶 woof! Used to run Prettier and
   Linter before every commit.
