@@ -1,7 +1,7 @@
-import React from 'react';
-import { Grid, Link, Typography } from '@mui/material';
+import React from "react";
+import { Grid, Link, Typography } from "@mui/material";
 
-import starWarsLogoGitHub from '../../assets/starwars-planet-icon-github.png';
+import starWarsLogoGitHub from "../../assets/starwars-planet-icon-github.png";
 
 const Footer = function Footer() {
   return (

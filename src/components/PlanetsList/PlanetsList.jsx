@@ -1,9 +1,9 @@
-import React from 'react';
-import { TransitionGroup } from 'react-transition-group';
-import { Collapse, Stack } from '@mui/material';
+import React from "react";
+import { TransitionGroup } from "react-transition-group";
+import { Collapse, Stack } from "@mui/material";
 
-import Planet from './Components/Planet/Planet';
-import planetsContext from '../../common/planetsContext';
+import Planet from "./Components/Planet/Planet";
+import planetsContext from "../../common/planetsContext";
 
 const PlanetsList = function PlanetsList() {
   const { planets } = React.useContext(planetsContext);

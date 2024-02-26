@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import React from 'react';
-import { Autocomplete, Box, CircularProgress, Grid, TextField } from '@mui/material';
+import React from "react";
+import { Autocomplete, Box, CircularProgress, Grid, TextField } from "@mui/material";
 
-import createPlanet from '../../common/utils';
-import planetsContext from '../../common/planetsContext';
+import createPlanet from "../../common/utils";
+import planetsContext from "../../common/planetsContext";
 
 const SearchBar = function SearchBar() {
   const [open, setOpen] = React.useState(false);
@@ -46,10 +46,10 @@ const SearchBar = function SearchBar() {
     <Grid item sx={{ paddingBottom: 3, width: 1 }}>
       <Box
         sx={{
-          bgcolor: '#fff',
-          border: '2px solid #C8CACF',
+          bgcolor: "#fff",
+          border: "2px solid #C8CACF",
           borderRadius: 5,
-          color: 'white',
+          color: "white",
           p: 2
         }}
       >
@@ -75,7 +75,7 @@ const SearchBar = function SearchBar() {
             <TextField
               {...params}
               InputLabelProps={{
-                style: { color: '#c5a049' }
+                style: { color: "#c5a049" }
               }}
               InputProps={{
                 ...params.InputProps,
@@ -88,7 +88,7 @@ const SearchBar = function SearchBar() {
               }}
               label="Search for Star Wars Planets, ex: Alderaan, Tattoine..."
               onChange={(ev) => {
-                if (ev.target.value !== '' || ev.target.value !== null) {
+                if (ev.target.value !== "" || ev.target.value !== null) {
                   onChangeHandle(ev.target.value);
                 }
               }}

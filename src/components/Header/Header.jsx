@@ -1,11 +1,11 @@
-import React from 'react';
-import { Grid, useMediaQuery } from '@mui/material';
+import React from "react";
+import { Grid, useMediaQuery } from "@mui/material";
 
-import starWarsLogoLandscape from '../../assets/Star-wars-logo-new-tall.png';
-import starWarsLogoPortrait from '../../assets/star-wars-portrait.jpg';
+import starWarsLogoLandscape from "../../assets/Star-wars-logo-new-tall.png";
+import starWarsLogoPortrait from "../../assets/star-wars-portrait.jpg";
 
 const Header = function Header() {
-  const isPortrait = useMediaQuery('(orientation: portrait)');
+  const isPortrait = useMediaQuery("(orientation: portrait)");
 
   return (
     <Grid item sx={{ marginBottom: 5 }}>
