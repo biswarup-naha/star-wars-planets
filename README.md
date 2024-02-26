@@ -29,34 +29,8 @@ Previously just a React exercise that:
 
 - [MUI React UI framework](https://mui.com/): The React UI library you always wanted.
 
-  - [TransitionGroup](https://mui.com/components/transitions/#transitiongroup): To animate a component when it is
-    mounted or unmounted.
-
-# My MUST-HAVE Features
-
-- [semantic-release](https://www.npmjs.com/package/semantic-release): semantic-release automates the whole package
-  release workflow including: determining the next version number, generating the release notes, and publishing the
-  package.
-
-- [ESLint](https://eslint.org/): Find and fix problems in your JavaScript code.
-
-- [Airbnb JavaScript Style Guide](https://airbnb.io/javascript/react/): A mostly reasonable approach to React and JSX.
-
-- [husky](https://www.npmjs.com/package/husky): Husky improves your commits and more 🐶 woof! Used to run Prettier and
-  Linter before every commit.
-
-- [HTML5 Boilerplate](https://html5boilerplate.com/): The web’s most popular front-end template.
-
-- [The Real FavIcon Generator](https://realfavicongenerator.net/): Favicon Generator. For real. All browsers. All
-  platforms. Your favorite technologies.
-
-- [All Social Media Tags](https://moz.com/blog/meta-data-templates-123): Must-Have Social Meta Tags for Twitter, Google,
-  Facebook, & More.
-
-- **CDN**: For this project used [Bunny.Net](https://bit.ly/AX-SuperCDN): The content delivery platform that truly hops.
-
-- **Hosting**: For this project used **GitHub Pages** with [gh-pages](https://www.npmjs.com/package/gh-pages): Publish files to a gh-pages branch
-  on GitHub (or any other branch anywhere else).
+- [TransitionGroup](https://mui.com/components/transitions/#transitiongroup): To animate a component when it is
+  mounted or unmounte
 
 # Must-Have Features TO DO
 
@@ -138,8 +112,8 @@ The build is minified and the filenames include the hashes. Your app is ready to
 Run Prettier script and fix code with eslint rules previously to a Pull Request.
 
 ### `npm run deploy`
-
-Publish build files to [project GitHub Page](https://gabrielizalo.github.io/starwars-planets/).
+ 
+To  publish it at GitHub pages. 
 
 Previous do a pull origin to get the latest commits.
 
